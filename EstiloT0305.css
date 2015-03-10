@@ -1,0 +1,47 @@
+#imagenes {
+    margin: 0 auto;
+    width: 450px;
+    z-index: 1;
+}
+
+#imagenes div {
+    float: left;
+    width: 80px;
+    height: 55px;
+    background: #ff8000;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #999;
+    cursor: pointer;
+    border-radius: .5em;
+    box-shadow: 0 1px 1px rgba(0,0,0,.5);
+    z-index: 2;
+}
+
+#imagenes div img {
+    border: none;
+    z-index: 3;
+}
+
+#botonera{
+    text-align: center;
+    padding: 5px;
+}
+
+.opacity {
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+.link {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #d54500;
+    padding: 5px 10px;
+    border-radius: .5em;
+}
+
+.link:hover {
+    background: #999;
+}
